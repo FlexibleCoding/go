@@ -15,17 +15,16 @@ package main
 import "fmt"
 
 type Creature struct {
-	Name string
-	Age  int
-	DOB  string
+	Name    string
+	Age     int
+	DOB     string
+	College string
 }
 
 func main() {
 	c := Creature{
-		Name: "Sammy the Shark", Age: 25, DOB: "01/07/2000",
+		Name: "Sammy the Shark", Age: 25, DOB: "01/07/2000", College: "Technical Education and Research Institute,Ghazipur",
 	}
-	fmt.Println("Name:", c.Name)
-	fmt.Println("Age:", c.Age)
-	fmt.Println("DOB:", c.DOB)
+	fmt.Println("Name:", c.Name, " Age:", c.Age, " DOB:", c.DOB, "College Name:", c.College)
 
 }
