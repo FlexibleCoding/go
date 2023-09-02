@@ -1,2 +1,2 @@
 # go
-To learn basic of Golang..
+To learn basic to advanced of Golang..
