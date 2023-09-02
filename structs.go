@@ -23,7 +23,7 @@ type Creature struct {
 
 func main() {
 	c := Creature{
-		Name: "Sammy the Shark", Age: 25, DOB: "01/07/2000", College: "Technical Education and Research Institute,Ghazipur",
+		"Sammy the Shark", 25, "01/07/2000", "Technical Education and Research Institute,Ghazipur", //define value of the struct field only in serial wise.
 	}
 	fmt.Println("Name:", c.Name, " Age:", c.Age, " DOB:", c.DOB, "College Name:", c.College)
 
